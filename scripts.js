@@ -18,10 +18,22 @@ console.log(exampleParagraph.id);
 header.innerText = "This is DOM example";
 
 
-let newParagraph = document.createElement('p');
-newParagraph.innerText = "lorem zxhjkdj djfdhjdfdf";
-// Добавит
-article.append(newParagraph);
+// let newParagraph = document.createElement('p');
+// newParagraph.innerText = "lorem zxhjkdj djfdhjdfdf";
+// // Добавит
+// article.append(newParagraph);
+let newDiv = document.createElement('div');
+newDiv.innerText = "Hello world";
+body.append(newDiv);
+let newa = document.createElement('a Hello world');
+body.append(newa);
+let newUl = document.createElement('ul');
+body.innerText = ('ul ');
+body.append(newUl);
+
+
+
+
 // article.prepend(newParagraph);
 // article.after(newParagraph);
 // article.before(newParagraph);
