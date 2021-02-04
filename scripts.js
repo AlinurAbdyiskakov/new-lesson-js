@@ -29,7 +29,7 @@ article.append(newParagraph);
 
 
 // .Удалит
-newStrong.remove('p strong');
+strong.remove();
 newParagraph.remove();
 // let strong = document.remove('p strong');
 
