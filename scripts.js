@@ -25,11 +25,11 @@ header.innerText = "This is DOM example";
 let newDiv = document.createElement('div');
 newDiv.innerText = "Hello world";
 body.append(newDiv);
- let newall = document.createElement(' Hello world');
-body.append(newall);
+//  let newall = document.createElement(' Hello world');
+// body.append(newall);
 let newUl = document.createElement('ul');
 body.innerText = ('ul ');
-body.append(newUl);
+body.before(newUl);
 
 
 
